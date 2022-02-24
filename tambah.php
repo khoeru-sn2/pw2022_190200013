@@ -6,7 +6,7 @@ if (isset($_POST['tambah'])) {
   if (tambah($_POST) > 0) {
     echo "<script>
             alert('data berhasil ditambahkan');
-            document.location.href = 'latihan1.php';
+            document.location.href = 'index.php';
          </script>";
   } else {
     echo "data gagal ditambahkan!";
@@ -57,7 +57,7 @@ if (isset($_POST['tambah'])) {
         </label>
       </li>
       <li>
-        <button type="submit" name="tambah">Tambah Data</button>
+        <button type="submit" name="tambah">Tambah Data!</button>
       </li>
     </ul>
   </form>
